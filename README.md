@@ -1,8 +1,8 @@
-📊 Risk Parity Portfolio Optimizer
+Risk Parity Portfolio Optimizer
 
 This project implements a multi-scenario **risk parity portfolio construction framework** in Python. It uses historical return data and optimizes asset weights such that each component contributes proportionally to the overall portfolio risk, based on a target risk budget. The model further blends multiple portfolio scenarios using an additional risk parity optimization layer — a practical method often seen in real-world portfolio construction.
 
-🧠 Concept
+Concept
 
 **Risk Parity** is a portfolio allocation strategy that assigns weights to assets based on their risk contributions, rather than expected returns. This approach is particularly useful in volatile or uncertain market environments where traditional return forecasts may be unreliable.
 
@@ -10,7 +10,7 @@ This implementation goes a step further:
 - Builds **individual scenario portfolios** (e.g., A&B vs A,B,C)
 - Combines those portfolios into a **top-level allocation** using another layer of risk parity optimization
 
-🚀 How It Works
+How It Works
 
 1. **Input**: Time series price data (Excel format)
 2. **Processing**:
@@ -27,7 +27,7 @@ This implementation goes a step further:
    - Portfolio-level volatility
    - Risk contributions
 
-📦 Dependencies
+Dependencies
 
 - Python 3.8+
 - `numpy`
